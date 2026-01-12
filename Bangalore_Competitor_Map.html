@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6c52dcc74b9bd748272bb73a41237f30 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6c52dcc74b9bd748272bb73a41237f30" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6c52dcc74b9bd748272bb73a41237f30 = L.map(
+                "map_6c52dcc74b9bd748272bb73a41237f30",
+                {
+                    center: [12.9716, 77.5946],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e47ea1dceb9b9337cab548936a70b0e6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6c52dcc74b9bd748272bb73a41237f30);
+        
+    
+            var marker_e90015f4f93356750ad81b2bdb596162 = L.marker(
+                [13.047555555555556, 77.74841666666667],
+                {}
+            ).addTo(map_6c52dcc74b9bd748272bb73a41237f30);
+        
+    
+        var popup_7513b4c1657f509e7f4c2e0651277196 = L.popup({"maxWidth": 300});
+
+        
+            var html_b41fd138da9c34ba9b2bfb827f71d967 = $(`<div id="html_b41fd138da9c34ba9b2bfb827f71d967" style="width: 100.0%; height: 100.0%;"><b>A</b><br><b>Developer:</b> Brigade Enterprises<br><b>Location:</b> Cheemasandra Vilage, Bidarahalli Hobli<br><b>Configuration:</b> 3B+G+45+Terrace<br><b>BUA:</b> 418,791 sq.ft.<br><b>Project Cost:</b> ₹190 Cr<br><b>Launch:</b> nan</div>`)[0];
+            popup_7513b4c1657f509e7f4c2e0651277196.setContent(html_b41fd138da9c34ba9b2bfb827f71d967);
+        
+
+        marker_e90015f4f93356750ad81b2bdb596162.bindPopup(popup_7513b4c1657f509e7f4c2e0651277196)
+        ;
+
+        
+    
+    
+            marker_e90015f4f93356750ad81b2bdb596162.bindTooltip(
+                `<div>
+                     A
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5b486f61eabfba70b4d66f3c4ac7a7b = L.marker(
+                [13.113638888888888, 77.60702777777777],
+                {}
+            ).addTo(map_6c52dcc74b9bd748272bb73a41237f30);
+        
+    
+        var popup_61604a9018d16b6bd3b9e1ed4e4e3861 = L.popup({"maxWidth": 300});
+
+        
+            var html_c85bf2983c57e2e7c3a9c437bb8eed45 = $(`<div id="html_c85bf2983c57e2e7c3a9c437bb8eed45" style="width: 100.0%; height: 100.0%;"><b>B</b><br><b>Developer:</b> Godrej SSDPL Green Acres PL<br><b>Location:</b> Venkatala Village, Yelahanka Hobli<br><b>Configuration:</b> 4B+G+15+Terrace<br><b>BUA:</b> 2,579,928 sq.ft.<br><b>Project Cost:</b> ₹524 Cr<br><b>Launch:</b> nan</div>`)[0];
+            popup_61604a9018d16b6bd3b9e1ed4e4e3861.setContent(html_c85bf2983c57e2e7c3a9c437bb8eed45);
+        
+
+        marker_e5b486f61eabfba70b4d66f3c4ac7a7b.bindPopup(popup_61604a9018d16b6bd3b9e1ed4e4e3861)
+        ;
+
+        
+    
+    
+            marker_e5b486f61eabfba70b4d66f3c4ac7a7b.bindTooltip(
+                `<div>
+                     B
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a20e769ce882911e8eb3464416b08ff1 = L.marker(
+                [13.047, 77.78330555555556],
+                {}
+            ).addTo(map_6c52dcc74b9bd748272bb73a41237f30);
+        
+    
+        var popup_56255c6d2ac60e75c502a250a1cc491f = L.popup({"maxWidth": 300});
+
+        
+            var html_709a17efdb3540daabcb44b71dfce563 = $(`<div id="html_709a17efdb3540daabcb44b71dfce563" style="width: 100.0%; height: 100.0%;"><b>C</b><br><b>Developer:</b> Godrej Properties (1)<br><b>Location:</b> Sarkariguttahalli Village, Hoskote Hobli<br><b>Configuration:</b> 2B+LG+UG+36+Terrace<br><b>BUA:</b> 2,818,561 sq.ft.<br><b>Project Cost:</b> ₹522 Cr<br><b>Launch:</b> nan</div>`)[0];
+            popup_56255c6d2ac60e75c502a250a1cc491f.setContent(html_709a17efdb3540daabcb44b71dfce563);
+        
+
+        marker_a20e769ce882911e8eb3464416b08ff1.bindPopup(popup_56255c6d2ac60e75c502a250a1cc491f)
+        ;
+
+        
+    
+    
+            marker_a20e769ce882911e8eb3464416b08ff1.bindTooltip(
+                `<div>
+                     C
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cb6effc468a120e7af74bfcf51fbaaf = L.marker(
+                [13.029611111111112, 77.53791666666666],
+                {}
+            ).addTo(map_6c52dcc74b9bd748272bb73a41237f30);
+        
+    
+        var popup_48a822b0c5b9ad8af539a51d3b5e1719 = L.popup({"maxWidth": 300});
+
+        
+            var html_24d6ce2be8c5045500988c3e220bf837 = $(`<div id="html_24d6ce2be8c5045500988c3e220bf837" style="width: 100.0%; height: 100.0%;"><b>D</b><br><b>Developer:</b> Godrej Properties (2)<br><b>Location:</b> 12 Industrial Suburb, 2nd Stage Yeshwanthpura,<br><b>Configuration:</b> 3B+G+29+Roof Top Amenities (30th Floor)+Terrace<br><b>BUA:</b> 1,155,589 sq.ft.<br><b>Project Cost:</b> ₹100 Cr<br><b>Launch:</b> nan</div>`)[0];
+            popup_48a822b0c5b9ad8af539a51d3b5e1719.setContent(html_24d6ce2be8c5045500988c3e220bf837);
+        
+
+        marker_1cb6effc468a120e7af74bfcf51fbaaf.bindPopup(popup_48a822b0c5b9ad8af539a51d3b5e1719)
+        ;
+
+        
+    
+    
+            marker_1cb6effc468a120e7af74bfcf51fbaaf.bindTooltip(
+                `<div>
+                     D
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b3fc6ac6abfa1498f92d1f71e135bc3 = L.marker(
+                [12.834444444444445, 77.60230555555555],
+                {}
+            ).addTo(map_6c52dcc74b9bd748272bb73a41237f30);
+        
+    
+        var popup_0efcb93709fc8289cd14e0e8bcdc9005 = L.popup({"maxWidth": 300});
+
+        
+            var html_b6cc31a8b5223803ff43dfb088b56ced = $(`<div id="html_b6cc31a8b5223803ff43dfb088b56ced" style="width: 100.0%; height: 100.0%;"><b>E</b><br><b>Developer:</b> Godrej Irismark LLP<br><b>Location:</b> Hommadevanahalli village, Begur hobli<br><b>Configuration:</b> 3B+G+30F+Terrace<br><b>BUA:</b> 4,878,675 sq.ft.<br><b>Project Cost:</b> ₹906 Cr<br><b>Launch:</b> nan</div>`)[0];
+            popup_0efcb93709fc8289cd14e0e8bcdc9005.setContent(html_b6cc31a8b5223803ff43dfb088b56ced);
+        
+
+        marker_6b3fc6ac6abfa1498f92d1f71e135bc3.bindPopup(popup_0efcb93709fc8289cd14e0e8bcdc9005)
+        ;
+
+        
+    
+    
+            marker_6b3fc6ac6abfa1498f92d1f71e135bc3.bindTooltip(
+                `<div>
+                     E
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
